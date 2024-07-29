@@ -1,1 +1,37 @@
+// Ejemplo 1
 
+public class BucleDoWhile {
+    public static void main(String[] args) {
+        int i = 1;
+
+        do {
+            System.out.println(i); 
+            i++;
+        } while (i <= 3);
+    }
+}
+
+// Ejemplo 2
+
+public class MensajeUnaVez {
+    public static void main(String[] args) {
+        boolean condicion = false;
+
+        do {
+            System.out.println("Este mensaje se imprime al menos una vez"); 
+        } while (condicion);
+    }
+}
+
+// Ejemplo 3
+
+public class ContarHaciaAtras {
+    public static void main(String[] args) {
+        int contador = 5;
+
+        do {
+            System.out.println(contador);
+            contador--;
+        } while (contador > 0);
+    }
+}
