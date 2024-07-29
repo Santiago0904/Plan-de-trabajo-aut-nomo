@@ -11,10 +11,7 @@ public class MostrarTexto {
 
 public class MostrarNumero {
     public static void main(String[] args) {
-        // Definir una variable de tipo int
         int numero = 42;
-
-        // Mostrar el valor de la variable
         System.out.println("El número es: " + numero);
     }
 }
@@ -22,10 +19,7 @@ public class MostrarNumero {
 // Ejemplo 3
 public class MostrarDecimal {
     public static void main(String[] args) {
-        // Definir una variable de tipo double
         double decimal = 3.14;
-
-        // Mostrar el valor de la variable
         System.out.println("El valor decimal es: " + decimal);
     }
 }
