@@ -1,1 +1,105 @@
+// Ejemplo 1
+public class DiaSemana {
+    public static void main(String[] args) {
+        int dia = 3;
 
+        switch (dia) {
+            case 1:
+                System.out.println("Lunes");
+                break;
+            case 2:
+                System.out.println("Martes");
+                break;
+            case 3:
+                System.out.println("Miércoles");
+                break;
+            case 4:
+                System.out.println("Jueves");
+                break;
+            case 5:
+                System.out.println("Viernes");
+                break;
+            case 6:
+                System.out.println("Sábado");
+                break;
+            case 7:
+                System.out.println("Domingo");
+                break;
+            default:
+                System.out.println("No hay mas de 7 dias");
+                break;
+        }
+    }
+}
+
+// Ejemplo 2
+public class TipoMes {
+    public static void main(String[] args) {
+        int mes = 5;
+
+        switch (mes) {
+            case 1:
+                System.out.println("Enero");
+                break;
+            case 2:
+                System.out.println("Febrero");
+                break;
+            case 3:
+                System.out.println("Marzo");
+                break;
+            case 4:
+                System.out.println("Abril");
+                break;
+            case 5:
+                System.out.println("Mayo");
+                break;
+            case 6:
+                System.out.println("Junio");
+                break;
+            case 7:
+                System.out.println("Julio");
+                break;
+            case 8:
+                System.out.println("Agosto");
+                break;
+            case 9:
+                System.out.println("Septiembre");
+                break;
+            case 10:
+                System.out.println("Octubre");
+                break;
+            case 11:
+                System.out.println("Noviembre");
+                break;
+            case 12:
+                System.out.println("Diciembre");
+                break;
+            default:
+                System.out.println("No hay mas de 12 meses");
+                break;
+        }
+    }
+}
+
+// Ejemplo 3
+
+public class TipoBebida {
+    public static void main(String[] args) {
+        int bebida = 2;
+
+        switch (bebida) {
+            case 1:
+                System.out.println("Agua");
+                break;
+            case 2:
+                System.out.println("Café");
+                break;
+            case 3:
+                System.out.println("Té");
+                break;
+            default:
+                System.out.println("Código de bebida inválido");
+                break;
+        }
+    }
+}
