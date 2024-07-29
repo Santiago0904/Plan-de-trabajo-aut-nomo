@@ -1,1 +1,39 @@
+// Ejemplo 1
+
+public class ImprimirNumeros {
+    public static void main(String[] args) {
+        int i = 1;
+
+        while (i <= 5) {
+            System.out.println(i);
+            i++; 
+        }
+    }
+}
+
+// Ejemplo 2
+
+public class ContarRegresivamente {
+    public static void main(String[] args) {
+        int i = 3;
+
+        while (i > 0) {
+            System.out.println(i);
+            i--;
+        }
+    }
+}
+
+// Ejemplo 3
+
+public class MostrarMensaje {
+    public static void main(String[] args) {
+        int contador = 1; 
+
+        while (contador <= 3) {
+            System.out.println("Este es un mensaje.");
+            contador++;
+        }
+    }
+}
 
