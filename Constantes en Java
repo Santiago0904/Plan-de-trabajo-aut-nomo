@@ -1,1 +1,26 @@
+// Ejemplo 1
 
+public class ConstantePI {
+    public static void main(String[] args) {
+        final double PI = 3.14159;
+        System.out.println("El valor de PI es: " + PI);
+    }
+}
+
+// Ejemplo 2
+
+public class ConstanteDiasSemana {
+    public static void main(String[] args) {
+        final int DIAS_SEMANA = 7;
+        System.out.println("El número de días en una semana es: " + DIAS_SEMANA);
+    }
+}
+
+// Ejemplo 3
+
+public class ConstanteSalarioMinimo {
+    public static void main(String[] args) {
+        final double SALARIO_MINIMO = 1300000;
+        System.out.println("El salario mínimo en Colombia es de: $" + SALARIO_MINIMO);
+    }
+}
