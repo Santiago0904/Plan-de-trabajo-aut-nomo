@@ -1,1 +1,44 @@
+// Ejemplo 1
+
+public class CondicionalSimple {
+    public static void main(String[] args) {
+        int numero = 60;
+
+        if (numero > 50) {
+            System.out.println("El número es mayor que 50.");
+        }
+    }
+}
+
+// Ejemplo 2
+public class CondicionalDoble {
+    public static void main(String[] args) {
+        int numero = 7;
+
+        if (numero % 2 == 0) {
+            System.out.println("El número es par.");
+        } else {
+            System.out.println("El número es impar.");
+        }
+    }
+}
+
+// Ejemplo 3
+
+public class CondicionalAnidado {
+    public static void main(String[] args) {
+        int numero = -10;
+
+        if (numero > 0) {
+            System.out.println("El número es positivo.");
+        } else {
+            if (numero < 0) {
+                System.out.println("El número es negativo.");
+            } else {
+                System.out.println("El número es cero.");
+            }
+        }
+    }
+}
+
 
