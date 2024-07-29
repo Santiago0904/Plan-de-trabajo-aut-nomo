@@ -1,1 +1,30 @@
+//Ejemplo 1
+
+public class ImprimirNumeros {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 5; i++) {
+            System.out.println(i);
+        }
+    }
+}
+
+//Ejemplo 2
+
+public class ImprimirNumerosPares {
+    public static void main(String[] args) {
+        for (int i = 2; i <= 6; i += 2) {
+            System.out.println(i);
+        }
+    }
+}
+
+//Ejemplo 3
+
+public class ImprimirMensaje {
+    public static void main(String[] args) {
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Este es un mensaje.");
+        }
+    }
+}
 
