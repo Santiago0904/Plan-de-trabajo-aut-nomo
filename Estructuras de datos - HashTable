@@ -1,0 +1,17 @@
+import java.util.Hashtable;
+
+public class EjemploHashtable {
+    public static void main(String[] args) {
+        Hashtable<String, Integer> edades = new Hashtable<>();
+
+        edades.put("Juan", 25);
+        edades.put("Ana", 30);
+        edades.put("Luis", 28);
+
+        System.out.println(edades.get("Juan"));
+        System.out.println(edades.get("Ana"));
+
+        edades.remove("Luis");
+        System.out.println(edades);
+    }
+}
